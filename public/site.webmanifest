@@ -1,0 +1,46 @@
+{
+    "name": "moiPhim - Xem Phim Online Miễn Phí",
+    "short_name": "moiPhim",
+    "description": "Trang web xem phim online miễn phí chất lượng cao, cập nhật phim mới nhất, xem phim nhanh full HD.",
+    "id": "https://phim.minhqnd.com/",
+    "start_url": "/phim",
+    "display": "standalone",
+    "display_override": [
+        "standalone",
+        "window-controls-overlay"
+    ],
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "vi",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "prefer_related_applications": false,
+    "related_applications": []
+}
