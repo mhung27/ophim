@@ -15,8 +15,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-    title: 'Tải ứng dụng moiPhim - Xem phim miễn phí trên mọi thiết bị',
-    description: 'moiPhim hỗ trợ đa dạng các nền tảng từ Android, iOS đến Smart TV và Apple TV. Tải ngay để trải nghiệm xem phim tốt nhất.',
+    title: 'Tải ứng dụng vmhPHIM - Xem phim miễn phí trên mọi thiết bị',
+    description: 'vmhPHIM hỗ trợ đa dạng các nền tảng từ Android, iOS đến Smart TV và Apple TV. Tải ngay để trải nghiệm xem phim tốt nhất.',
 };
 
 const platforms = [
@@ -26,8 +26,8 @@ const platforms = [
         description: 'Điện thoại & Máy tính bảng',
         icon: <Smartphone className="h-8 w-8" />,
         status: 'available',
-        link: '/moiPhim.apk',
-        version: '1.0.0',
+        link: 'comingn-soon',
+        version: 'Chưa ra mắt',
         details: 'Hỗ trợ Android 5.0 trở lên',
         color: 'emerald'
     },
@@ -84,7 +84,7 @@ export default function DownloadPage() {
                     </div>
 
                     <h1 className="text-4xl md:text-6xl font-black tracking-tight text-white animate-slide-up">
-                        moiPhim cho mọi<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Thiết bị của bạn</span>
+                        vmhPHIM cho mọi<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Thiết bị của bạn</span>
                     </h1>
 
                     <p className="text-lg text-white/50 max-w-2xl mx-auto leading-relaxed animate-slide-up [animation-delay:100ms]">
@@ -188,7 +188,7 @@ export default function DownloadPage() {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                             <div className="space-y-8">
                                 <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-                                    Tại sao nên cài đặt<br /> ứng dụng MoiPhim?
+                                    Tại sao nên cài đặt<br /> ứng dụng vmhPHIM?
                                 </h2>
 
                                 <div className="space-y-6">
@@ -257,10 +257,10 @@ export default function DownloadPage() {
                         <Download className="h-10 w-10 text-white/20" />
                     </div>
                     <h2 className="text-3xl md:text-4xl font-bold text-white">Sẵn sàng trải nghiệm?</h2>
-                    <p className="text-white/40 text-lg">Tải ứng dụng MoiPhim ngay hôm nay để bắt đầu hành trình điện ảnh của bạn.</p>
+                    <p className="text-white/40 text-lg">Tải ứng dụng vmhPHIM ngay hôm nay để bắt đầu hành trình điện ảnh của bạn.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Button size="lg" className="bg-white text-black hover:bg-white/90 rounded-full px-10 py-7 text-lg font-black" asChild>
-                            <Link href="/moiPhim.apk">Cài đặt Android</Link>
+                            <Link href="/vmhPHIM.apk">Cài đặt Android</Link>
                         </Button>
                         <Button variant="outline" size="lg" className="rounded-full px-10 py-7 text-lg font-bold border-white/15 hover:bg-white/5" asChild>
                             <Link href="/phim">Xem trên Web trước</Link>
