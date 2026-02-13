@@ -12,14 +12,14 @@ const danfo = Danfo({ subsets: ["latin"], weight: "400", variable: "--font-danfo
 
 export const metadata: Metadata = {
   title: {
-    default: "moiPhim - Xem Phim Online Miễn Phí",
-    template: "%s | moiPhim"
+    default: "vmhPHIM - Xem Phim Online Miễn Phí",
+    template: "%s | vmhphim"
   },
   description: "Trang web xem phim online miễn phí chất lượng cao, cập nhật phim mới nhất, xem phim nhanh full HD.",
-  keywords: ["xem phim", "phim online", "phim moi", "moiPhim"],
-  authors: [{ name: "moiPhim" }],
-  creator: "moiPhim",
-  publisher: "moiPhim",
+  keywords: ["xem phim", "phim online", "phim moi", "vmhPHIM"],
+  authors: [{ name: "vmhPHIM" }],
+  creator: "vmhPHIM",
+  publisher: "vmhPHIM",
   formatDetection: {
     email: false,
     address: false,
@@ -51,16 +51,16 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "moiPhim - Xem Phim Online Miễn Phí",
+    title: "vmhPHIM - Xem Phim Online Miễn Phí",
     description: "Trang web xem phim online miễn phí chất lượng cao, cập nhật phim mới nhất, xem phim nhanh full HD.",
     url: "https://phim.minhqnd.com",
-    siteName: "moiPhim",
+    siteName: "vmhPHIM",
     locale: "vi_VN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "moiPhim - Xem Phim Online Miễn Phí",
+    title: "vmhPHIM - Xem Phim Online Miễn Phí",
     description: "Trang web xem phim online miễn phí chất lượng cao, cập nhật phim mới nhất, xem phim nhanh full HD.",
   },
   robots: {
