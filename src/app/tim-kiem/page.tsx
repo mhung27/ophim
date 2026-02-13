@@ -12,7 +12,7 @@ interface PageProps {
 export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
     const { keyword } = await searchParams;
     return {
-        title: `Tìm kiếm: ${keyword || ''} - moiPhim`,
+        title: `Tìm kiếm: ${keyword || ''} - vmhPHIM`,
     };
 }
 
