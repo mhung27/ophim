@@ -13,7 +13,7 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { slug } = await params;
     return {
-        title: `Phim ${slug.replace(/-/g, ' ')} - moiPhim`,
+        title: `Phim ${slug.replace(/-/g, ' ')} - vmhPHIM`,
     };
 }
 
