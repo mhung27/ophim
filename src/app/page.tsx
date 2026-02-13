@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const { type } = await params;
     const title = TYPE_MAP[type] || type;
     return {
-        title: `${title} - vmhPHIM`,
+        title: `${title} - vmhPhim`,
     };
 }
 
