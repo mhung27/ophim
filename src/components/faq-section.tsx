@@ -9,16 +9,16 @@ import {
 
 const faqItems = [
     {
-        q: "moiPhim là gì?",
-        a: "Không phải Phim Mới hay Mới Phim - moiPhim là nền tảng xem phim trực tuyến miễn phí, cung cấp hàng ngàn bộ phim lẻ, phim bộ, hoạt hình và TV shows từ nhiều quốc gia khác nhau. Tất cả nội dung đều được cập nhật liên tục và hoàn toàn miễn phí."
+        q: "vmhPHIM là gì?",
+        a: "Không phải Phim Mới hay Mới Phim - vmhPHIM là nền tảng xem phim trực tuyến miễn phí, cung cấp hàng ngàn bộ phim lẻ, phim bộ, hoạt hình và TV shows từ nhiều quốc gia khác nhau. Tất cả nội dung đều được cập nhật liên tục và hoàn toàn miễn phí."
     },
     {
         q: "Tôi có cần đăng ký tài khoản không?",
-        a: "Không, bạn không cần đăng ký hay tạo tài khoản. Chỉ cần truy cập moiPhim và bắt đầu xem phim ngay lập tức mà không cần bất kỳ thông tin cá nhân nào."
+        a: "Không, bạn không cần đăng ký hay tạo tài khoản. Chỉ cần truy cập vmhPHIM và bắt đầu xem phim ngay lập tức mà không cần bất kỳ thông tin cá nhân nào."
     },
     {
-        q: "moiPhim có những thể loại phim nào?",
-        a: "moiPhim cung cấp đa dạng thể loại bao gồm: Phim Hành Động, Tình Cảm, Hài Hước, Kinh Dị, Khoa Học Viễn Tưởng, Hoạt Hình, Phim Tài Liệu, Phim Bộ Hàn Quốc, Trung Quốc, Nhật Bản, Mỹ và nhiều hơn nữa."
+        q: "vmhPHIM có những thể loại phim nào?",
+        a: "vmhPHIM cung cấp đa dạng thể loại bao gồm: Phim Hành Động, Tình Cảm, Hài Hước, Kinh Dị, Khoa Học Viễn Tưởng, Hoạt Hình, Phim Tài Liệu, Phim Bộ Hàn Quốc, Trung Quốc, Nhật Bản, Mỹ và nhiều hơn nữa."
     },
     {
         q: "Tôi có thể xem phim trên thiết bị nào?",
@@ -26,7 +26,7 @@ const faqItems = [
     },
     {
         q: "Phim có Vietsub không?",
-        a: "Có, đa số phim trên moiPhim đều có phụ đề Tiếng Việt (Vietsub). Ngoài ra, nhiều bộ phim còn có bản Thuyết Minh tiếng Việt để bạn lựa chọn."
+        a: "Có, đa số phim trên vmhPHIM đều có phụ đề Tiếng Việt (Vietsub). Ngoài ra, nhiều bộ phim còn có bản Thuyết Minh tiếng Việt để bạn lựa chọn."
     },
     {
         q: "Phim mới được cập nhật như thế nào?",

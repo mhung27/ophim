@@ -44,7 +44,7 @@ export function SiteHeader() {
                 {/* Logo - Always visible */}
                 <Link href="/phim" className="flex items-center space-x-2 group flex-shrink-0">
                     <span className="text-2xl md:text-3xl font-normal text-white transition-opacity group-hover:opacity-80 uppercase drop-shadow-[0_0_8px_rgba(255,255,255,0.3)] font-[family-name:var(--font-danfo)]">
-                        MOIPHIM.
+                        vmhPHIM.
                     </span>
                 </Link>
 

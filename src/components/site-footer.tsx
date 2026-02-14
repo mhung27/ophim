@@ -37,7 +37,7 @@ export function SiteFooter() {
                     <div>
                         <Link href="/phim" className="flex items-center space-x-2 group flex-shrink-0">
                             <span className="text-xl md:text-2xl font-normal text-white transition-opacity group-hover:opacity-80 uppercase drop-shadow-[0_0_8px_rgba(255,255,255,0.3)] font-[family-name:var(--font-danfo)]">
-                                MOIPHIM.
+                                vmhPHIM.
                             </span>
                         </Link>
                         <p className="text-sm text-white/30 mt-3 leading-relaxed">
@@ -68,7 +68,7 @@ export function SiteFooter() {
                 {/* Bottom */}
                 <div className="border-t border-white/[0.06] pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
                     <p className="text-xs text-white/25">
-                        © {new Date().getFullYear()} moiPhim. Dữ liệu phim được cung cấp bởi OPhim.
+                        © {new Date().getFullYear()} vmhPHIM. Dữ liệu phim được cung cấp bởi OPhim.
                     </p>
                     {/* <p className="text-xs text-white/25">
                         Được xây dựng với Next.js & Tailwind CSS
